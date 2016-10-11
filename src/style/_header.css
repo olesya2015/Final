@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background: url(/foto/header.jpg) center no-repeat;
+  background-size: cover;
+  height: 670px;
+  padding: 0 150px;
+}
+.carol-hid {
+  position: static;
+}
+.navigat {
+  padding-top: 17px;
+}
+.navigat > li > a {
+  font-family: Robot, Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.navigat > li > a:hover {
+  color: #00e0d0;
+  background-color: transparent;
+}
+.cont-hed {
+  color: #ffffff;
+  text-align: center;
+  padding: 170px 130px 200px 130px;
+}
+.cont-hed .had-h {
+  text-transform: capitalize;
+  font-family: PlayFaire, Arial;
+  position: relative;
+  padding-bottom: 25px;
+}
+.cont-hed .had-h:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #00e0d0;
+  left: 50%;
+  margin-left: -25px;
+  bottom: 0;
+}
+.cont-hed > p {
+  font-family: Robot-light;
+  padding: 25px 0 60px 0;
+}

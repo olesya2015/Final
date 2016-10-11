@@ -1,0 +1,72 @@
+.footer {
+  background: url(/foto/footer.jpg) center no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 70px 280px;
+}
+.footer .f-img-p {
+  margin-top: -15px;
+}
+.footer .f-img-p > .p-top {
+  padding-top: 20px;
+}
+.footer .text-rob {
+  font-family: Robot-light, Arial;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer .pos-t-f {
+  padding-top: 20px;
+}
+.footer .p-r-f {
+  padding-right: 15px;
+}
+.footer .our-studio {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Robot, Arial;
+  font-size: 15px;
+}
+.footer .pad-inp {
+  padding-top: 20px;
+}
+.footer .inp-pad {
+  padding-right: 0;
+  padding-left: 0;
+}
+.footer .inp-pad > form > .inp-bg {
+  background: transparent;
+  height: 43px;
+}
+.footer .inp-pad-2 {
+  padding-right: 0;
+  padding-left: 10px;
+}
+.footer .inp-pad-2 > .bg-but {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 0.502;
+  width: 68px;
+  height: 43px;
+}
+.footer .pad-img-1 {
+  padding-right: 0;
+}
+.footer .img-foot > li > a {
+  padding: 0;
+  margin: 25px 5px 0 0;
+}
+.footer .mar-fot {
+  margin-top: 80px;
+}
+.footer .fot-text > p > a {
+  font-family: Roboto Regular, Arial;
+  color: #e3e2e8;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer .br-foot {
+  color: #ffffff;
+  font-family: Roboto Regular, Arial;
+  font-size: 14px;
+}

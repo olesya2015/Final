@@ -1,0 +1,72 @@
+.people-say {
+  background: url(/foto/3.jpg) center no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 60px 0;
+  position: relative;
+}
+.people-say > .peop-lap {
+  font-family: PlayFaireDisplayRegular, Arial;
+  font-size: 100px;
+  text-align: center;
+  color: #ebeaef;
+}
+.people-say > .peop-text {
+  text-align: center;
+  padding: 0 350px;
+  font-size: 16px;
+  font-family: PlayFaireDisplayRegular, Arial;
+  color: #bfbbc9;
+}
+.people-say .people-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Robot, Arial;
+  color: #ffffff;
+  padding-top: 55px;
+}
+.people-say .people-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Robot-light, Arial;
+  color: #bfbcc9;
+}
+.people-say > .clad-people {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+}
+.people-say > .clad-people .glup-top {
+  top: 25px;
+}
+.people-say .pos-img-carol {
+  position: absolute;
+}
+.people-say .carol-img {
+  position: relative;
+  left: 50%;
+  margin-left: -35px;
+}
+.forma {
+  padding: 65px 210px;
+}
+.forma .pad-b-1 {
+  margin-bottom: 30px;
+}
+.forma h2.pad-l {
+  margin-bottom: 20px;
+}
+.forma .pad-l {
+  padding-left: 30px;
+}
+.forma .our-happy {
+  padding-left: 100px;
+}
+.forma .p-i-comp {
+  padding: 15px;
+  width: 100%;
+}
+.forma .for-radi {
+  border-radius: 0;
+}

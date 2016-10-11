@@ -1,0 +1,431 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background: url(/foto/header.jpg) center no-repeat;
+  background-size: cover;
+  height: 670px;
+  padding: 0 150px;
+}
+.carol-hid {
+  position: static;
+}
+.navigat {
+  padding-top: 17px;
+}
+.navigat > li > a {
+  font-family: Robot, Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.navigat > li > a:hover {
+  color: #00e0d0;
+  background-color: transparent;
+}
+.cont-hed {
+  color: #ffffff;
+  text-align: center;
+  padding: 170px 130px 200px 130px;
+}
+.cont-hed .had-h {
+  text-transform: capitalize;
+  font-family: PlayFaire, Arial;
+  position: relative;
+  padding-bottom: 25px;
+}
+.cont-hed .had-h:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #00e0d0;
+  left: 50%;
+  margin-left: -25px;
+  bottom: 0;
+}
+.cont-hed > p {
+  font-family: Robot-light;
+  padding: 25px 0 60px 0;
+}
+.btn-all {
+  border: 1px solid #00e0d0;
+  background-color: transparent;
+  color: #00e0d0;
+  text-transform: uppercase;
+  font-family: Hammer;
+  padding: 11px 15px 11px 15px;
+}
+.story {
+  height: 400px;
+  padding: 70px;
+  text-align: center;
+  position: relative;
+}
+.story .hed-pad-story {
+  position: absolute;
+  left: 50%;
+  margin-left: -425px;
+  width: 850px;
+}
+.story h2 {
+  padding-bottom: 20px;
+}
+.story > .font-1 {
+  text-transform: uppercase;
+  color: #413d4b;
+  font-family: PlayFaireBold, Arial;
+  font-size: 22px;
+}
+.story .story-text {
+  padding-left: 120px;
+  text-align: left;
+}
+.story > div > p {
+  font-family: Robot-light;
+  color: #716e78;
+  font-size: 14px;
+}
+.story .pad-story {
+  padding-bottom: 30px;
+}
+.story > .lear {
+  padding-bottom: 70px;
+}
+.video {
+  padding: 0;
+  margin-top: 130px;
+  height: 540px;
+}
+.font-1 {
+  text-transform: uppercase;
+  color: #413d4b;
+  font-family: PlayFaireBold, Arial;
+  font-size: 22px;
+}
+@font-face {
+  font-family: Hammer;
+  src: url(/fonts/HammersmithOne-Regular.ttf);
+}
+@font-face {
+  font-family: PlayFaire;
+  src: url(/fonts/PlayfairDisplay-Black.otf);
+}
+@font-face {
+  font-family: Robot;
+  src: url(/fonts/roboto.black.ttf);
+}
+@font-face {
+  font-family: Robot-light;
+  src: url(/fonts/roboto-light.ttf);
+}
+@font-face {
+  font-family: PlayFaireDisplayRegular;
+  src: url(/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf);
+}
+@font-face {
+  font-family: PlayFaireBold;
+  src: url(/fonts/playfair-display-bold_[allfont.ru].ttf);
+}
+@font-face {
+  font-family: Roboto Regular;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+.epertise {
+  height: 755px;
+  padding: 0 200px 70px 200px;
+  position: relative;
+}
+.epertise > .expert {
+  text-align: center;
+  margin-top: 46px;
+  padding-bottom: 75px;
+}
+.epertise > .expert small.exp-text {
+  text-align: center;
+  font-family: PlayFaireDisplayRegular, Arial;
+  color: #a1a0a4;
+  font-size: 14px;
+  text-transform: lowercase;
+  position: relative;
+}
+.epertise > .expert small.exp-text:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #c6c4c9;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -22px;
+}
+.epertise table {
+  border: 10px solid white;
+  width: 945px;
+  position: absolute;
+  left: 50%;
+  margin-left: -460px;
+}
+.epertise td {
+  padding: 35px 30px;
+  text-align: center;
+  font-size: 14px;
+}
+.epertise td > .h-table {
+  font-family: Robot;
+  text-transform: uppercase;
+}
+.epertise td > .p-table {
+  font-family: Robot-light, Arial;
+  color: #666666;
+}
+.team {
+  background: url(/foto/2.jpg) center no-repeat;
+  background-size: cover;
+  height: 710px;
+  padding: 65px 250px;
+  text-align: center;
+  position: relative;
+}
+.team > .team-kol {
+  padding: 30px 0;
+}
+.team > .line-team {
+  padding: 18px 0;
+}
+.team > .line-team > .border-team {
+  border: 1px solid #655c80;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+}
+.team > .h-team {
+  font-family: PlayFaireBold;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.team small.p-team {
+  font-size: 14px;
+  font-family: PlayFaireDisplayRegular, Arial;
+  text-align: center;
+  color: #f9f9f9;
+  text-transform: lowercase;
+  position: relative;
+}
+.team small.p-team:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #655c80;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -22px;
+}
+.team .kolaj {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+.team .img-r {
+  height: 230px;
+  width: 220px;
+}
+.team .t-p-head {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Robot, Arial;
+  color: #f3f3f5;
+  text-align: center;
+}
+.team .t-p-p {
+  text-align: center;
+  color: #b0aebc;
+  text-transform: uppercase;
+  font-family: Robot-light, Arial;
+  font-size: 13px;
+}
+.team > .tean-capt {
+  font-family: Robot-light, Arial;
+  font-size: 14px;
+  color: #f3f3f3;
+  padding-bottom: 15px;
+}
+.our-works {
+  height: 735px;
+  padding: 0;
+}
+.our-works h2 {
+  margin: 0;
+}
+.our-works > .our-all {
+  padding: 65px 275px;
+}
+.our-works > .our-all > div > a {
+  color: #413d4b;
+  font-family: Robot-light, Arial;
+}
+.our-works .gallery-row {
+  margin: 0;
+}
+.our-works .gallery-row > .y-img {
+  padding: 0;
+}
+.our-works .gallery-row > .y-img > a > img {
+  width: 265px;
+  height: 200px;
+}
+.our-works > .col-btn-gal {
+  text-align: center;
+  padding: 70px 0;
+}
+.people-say {
+  background: url(/foto/3.jpg) center no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 60px 0;
+  position: relative;
+}
+.people-say > .peop-lap {
+  font-family: PlayFaireDisplayRegular, Arial;
+  font-size: 100px;
+  text-align: center;
+  color: #ebeaef;
+}
+.people-say > .peop-text {
+  text-align: center;
+  padding: 0 350px;
+  font-size: 16px;
+  font-family: PlayFaireDisplayRegular, Arial;
+  color: #bfbbc9;
+}
+.people-say .people-1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Robot, Arial;
+  color: #ffffff;
+  padding-top: 55px;
+}
+.people-say .people-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Robot-light, Arial;
+  color: #bfbcc9;
+}
+.people-say > .clad-people {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+}
+.people-say > .clad-people .glup-top {
+  top: 25px;
+}
+.people-say .pos-img-carol {
+  position: absolute;
+}
+.people-say .carol-img {
+  position: relative;
+  left: 50%;
+  margin-left: -35px;
+}
+.forma {
+  padding: 65px 210px;
+}
+.forma .pad-b-1 {
+  margin-bottom: 30px;
+}
+.forma h2.pad-l {
+  margin-bottom: 20px;
+}
+.forma .pad-l {
+  padding-left: 30px;
+}
+.forma .our-happy {
+  padding-left: 100px;
+}
+.forma .p-i-comp {
+  padding: 15px;
+  width: 100%;
+}
+.forma .for-radi {
+  border-radius: 0;
+}
+.footer {
+  background: url(/foto/footer.jpg) center no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 70px 280px;
+}
+.footer .f-img-p {
+  margin-top: -15px;
+}
+.footer .f-img-p > .p-top {
+  padding-top: 20px;
+}
+.footer .text-rob {
+  font-family: Robot-light, Arial;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer .pos-t-f {
+  padding-top: 20px;
+}
+.footer .p-r-f {
+  padding-right: 15px;
+}
+.footer .our-studio {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Robot, Arial;
+  font-size: 15px;
+}
+.footer .pad-inp {
+  padding-top: 20px;
+}
+.footer .inp-pad {
+  padding-right: 0;
+  padding-left: 0;
+}
+.footer .inp-pad > form > .inp-bg {
+  background: transparent;
+  height: 43px;
+}
+.footer .inp-pad-2 {
+  padding-right: 0;
+  padding-left: 10px;
+}
+.footer .inp-pad-2 > .bg-but {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 0.502;
+  width: 68px;
+  height: 43px;
+}
+.footer .pad-img-1 {
+  padding-right: 0;
+}
+.footer .img-foot > li > a {
+  padding: 0;
+  margin: 25px 5px 0 0;
+}
+.footer .mar-fot {
+  margin-top: 80px;
+}
+.footer .fot-text > p > a {
+  font-family: Roboto Regular, Arial;
+  color: #e3e2e8;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer .br-foot {
+  color: #ffffff;
+  font-family: Roboto Regular, Arial;
+  font-size: 14px;
+}

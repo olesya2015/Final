@@ -1,0 +1,8 @@
+.btn-all {
+  border: 1px solid #00e0d0;
+  background-color: transparent;
+  color: #00e0d0;
+  text-transform: uppercase;
+  font-family: Hammer;
+  padding: 11px 15px 11px 15px;
+}

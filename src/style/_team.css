@@ -1,0 +1,104 @@
+.team {
+  background: url(/foto/2.jpg) center no-repeat;
+  background-size: cover;
+  height: 710px;
+  padding: 65px 250px;
+  text-align: center;
+  position: relative;
+}
+.team > .team-kol {
+  padding: 30px 0;
+}
+.team > .line-team {
+  padding: 18px 0;
+}
+.team > .line-team > .border-team {
+  border: 1px solid #655c80;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+}
+.team > .h-team {
+  font-family: PlayFaireBold;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.team small.p-team {
+  font-size: 14px;
+  font-family: PlayFaireDisplayRegular, Arial;
+  text-align: center;
+  color: #f9f9f9;
+  text-transform: lowercase;
+  position: relative;
+}
+.team small.p-team:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background: #655c80;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -22px;
+}
+.team .kolaj {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+.team .img-r {
+  height: 230px;
+  width: 220px;
+}
+.team .t-p-head {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Robot, Arial;
+  color: #f3f3f5;
+  text-align: center;
+}
+.team .t-p-p {
+  text-align: center;
+  color: #b0aebc;
+  text-transform: uppercase;
+  font-family: Robot-light, Arial;
+  font-size: 13px;
+}
+.team > .tean-capt {
+  font-family: Robot-light, Arial;
+  font-size: 14px;
+  color: #f3f3f3;
+  padding-bottom: 15px;
+}
+.our-works {
+  height: 735px;
+  padding: 0;
+}
+.our-works h2 {
+  margin: 0;
+}
+.our-works > .our-all {
+  padding: 65px 275px;
+}
+.our-works > .our-all > div > a {
+  color: #413d4b;
+  font-family: Robot-light, Arial;
+}
+.our-works .gallery-row {
+  margin: 0;
+}
+.our-works .gallery-row > .y-img {
+  padding: 0;
+}
+.our-works .gallery-row > .y-img > a > img {
+  width: 265px;
+  height: 200px;
+}
+.our-works > .col-btn-gal {
+  text-align: center;
+  padding: 70px 0;
+}

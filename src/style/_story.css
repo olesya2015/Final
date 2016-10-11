@@ -1,0 +1,41 @@
+.story {
+  height: 400px;
+  padding: 70px;
+  text-align: center;
+  position: relative;
+}
+.story .hed-pad-story {
+  position: absolute;
+  left: 50%;
+  margin-left: -425px;
+  width: 850px;
+}
+.story h2 {
+  padding-bottom: 20px;
+}
+.story > .font-1 {
+  text-transform: uppercase;
+  color: #413d4b;
+  font-family: PlayFaireBold, Arial;
+  font-size: 22px;
+}
+.story .story-text {
+  padding-left: 120px;
+  text-align: left;
+}
+.story > div > p {
+  font-family: Robot-light;
+  color: #716e78;
+  font-size: 14px;
+}
+.story .pad-story {
+  padding-bottom: 30px;
+}
+.story > .lear {
+  padding-bottom: 70px;
+}
+.video {
+  padding: 0;
+  margin-top: 130px;
+  height: 540px;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "final-work",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Olesya <b.olesya2015@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net": "^1.10.12"
+  }
+}

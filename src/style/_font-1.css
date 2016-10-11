@@ -1,0 +1,34 @@
+.font-1 {
+  text-transform: uppercase;
+  color: #413d4b;
+  font-family: PlayFaireBold, Arial;
+  font-size: 22px;
+}
+@font-face {
+  font-family: Hammer;
+  src: url(/fonts/HammersmithOne-Regular.ttf);
+}
+@font-face {
+  font-family: PlayFaire;
+  src: url(/fonts/PlayfairDisplay-Black.otf);
+}
+@font-face {
+  font-family: Robot;
+  src: url(/fonts/roboto.black.ttf);
+}
+@font-face {
+  font-family: Robot-light;
+  src: url(/fonts/roboto-light.ttf);
+}
+@font-face {
+  font-family: PlayFaireDisplayRegular;
+  src: url(/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf);
+}
+@font-face {
+  font-family: PlayFaireBold;
+  src: url(/fonts/playfair-display-bold_[allfont.ru].ttf);
+}
+@font-face {
+  font-family: Roboto Regular;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
