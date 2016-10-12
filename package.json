@@ -19,7 +19,8 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
-    "gulp-file": "^0.3.0"
+    "gulp-file": "^0.3.0",
+    "toastr": "^2.1.2"
   },
   "description": ""
 }

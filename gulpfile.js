@@ -67,8 +67,22 @@ gulp.task("json", function () {
     return gulp.src("src/**/*.json")
         .pipe(gulp.dest("dist/"));
 });
+gulp.task("tost-css", function () {
+    return gulp.src([
+        "src/vendor/toastr/toastr.min.css"
+    ])
+        .pipe(nano())
+        .pipe(concat("tost.min.css"))
+        .pipe(gulp.dest("dist/css"));
+});
+gulp.task("tost-js", function () {
+    return gulp.src("src/vendor/toastr/toastr.min.js")
+        .pipe(concat("tost.min.js"))
+        .pipe(uglify())
+        .pipe(gulp.dest("dist/js"));
+});
 
-gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "vendor-js", "app-js", "json", "data-js"]);
+gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "vendor-js", "app-js", "json", "data-js", "tost-css", "tost-js"]);
 
 gulp.task("watch", function () {
     browserSync.init({
@@ -83,12 +97,18 @@ gulp.task("watch", function () {
         "src/fonts/**/*.*"
     ], ["fonts"]);
     gulp.watch([
+        "src/vendor/toastr/toastr.min.css"
+    ], ["tost-css"]);
+    gulp.watch([
         "src/vendor/bootstrap/dist/css/bootstrap.css"
     ], ["vendor-css"]);
     gulp.watch([
         "src/vendor/jquery/dist/jquery.min.js",
         "src/vendor/bootstrap/dist/js/bootstrap.min.js"
     ], ["vendor-js"]);
+    gulp.watch([
+        "src/vendor/toastr/toastr.min.js"
+    ], ["tost-js"]);
     gulp.watch("src/**/*.html", ["html"]);
     gulp.watch("dist/**/*.html")
         .on("change", browserSync.reload);
