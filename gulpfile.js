@@ -67,6 +67,14 @@ gulp.task("json", function () {
     return gulp.src("src/**/*.json")
         .pipe(gulp.dest("dist/"));
 });
+gulp.task("data-css", function () {
+    return gulp.src([
+        "src/vendor/datatables.net/data.css"
+    ])
+        .pipe(nano())
+        .pipe(concat("data.min.css"))
+        .pipe(gulp.dest("dist/css"));
+});
 gulp.task("tost-css", function () {
     return gulp.src([
         "src/vendor/toastr/toastr.min.css"
@@ -82,7 +90,7 @@ gulp.task("tost-js", function () {
         .pipe(gulp.dest("dist/js"));
 });
 
-gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "vendor-js", "app-js", "json", "data-js", "tost-css", "tost-js"]);
+gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "data-css", "vendor-js", "app-js", "json", "data-js", "tost-css", "tost-js"]);
 
 gulp.task("watch", function () {
     browserSync.init({
@@ -98,6 +106,9 @@ gulp.task("watch", function () {
     ], ["fonts"]);
     gulp.watch([
         "src/vendor/toastr/toastr.min.css"
+    ], ["data-css"]);
+    gulp.watch([
+        "src/vendor/datatables.net/data.css"
     ], ["tost-css"]);
     gulp.watch([
         "src/vendor/bootstrap/dist/css/bootstrap.css"
