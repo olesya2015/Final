@@ -69,11 +69,11 @@ gulp.task("json", function () {
 });
 gulp.task("data-css", function () {
     return gulp.src([
-        "src/vendor/datatables.net/data.css"
+        "src/style/data.css"
     ])
         .pipe(nano())
-        .pipe(concat("data.min.css"))
-        .pipe(gulp.dest("dist/css"));
+        .pipe(concat("data.css"))
+        .pipe(gulp.dest("dist/style"));
 });
 gulp.task("tost-css", function () {
     return gulp.src([
