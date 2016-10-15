@@ -42,7 +42,6 @@ gulp.task("app-css", function () {
 });
 gulp.task("vendor-js", function () {
     return gulp.src([
-        "src/vendor/jquery/dist/jquery.min.js",
         "src/vendor/bootstrap/dist/js/bootstrap.min.js"
     ])
         .pipe(addSrc.prepend("src/vendor/jquery/dist/jquery.js"))
@@ -90,7 +89,7 @@ gulp.task("tost-js", function () {
         .pipe(gulp.dest("dist/js"));
 });
 
-gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "data-css", "vendor-js", "app-js", "json", "data-js", "tost-css", "tost-js"]);
+gulp.task("default", ["html", "fonts", "foto", "vendor-css", "app-css", "data-css", "vendor-js", "app-js", "json", "data-js", "tost-css", "tost-js", "watch"]);
 
 gulp.task("watch", function () {
     browserSync.init({
