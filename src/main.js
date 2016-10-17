@@ -107,9 +107,16 @@ $(function() {
         delayToasts();
     }
 });
+$("#tost-btn").click(function() {
 
+    $("#form")[0].reset();
 
+});
+$("#btn-foot").click(function() {
 
+    $("#foot-form")[0].reset();
+
+});
 
 
 

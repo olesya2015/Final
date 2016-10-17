@@ -11,37 +11,86 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12 col-lg-12 col-md-12 header">
-            <div class="col-xs-2 col-lg-2 col-md-2">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" class="logo" src="/foto/Vector Smart Object.png">
-                </a>
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 header">
+            <div class="paddin-head">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" class="logo" src="foto/Vector Smart Object.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse new-daad" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav pull-right navigat">
+                        <li class="active"><a href="/index.html">Home<span class="sr-only">(поточний)</span></a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Expertise</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Wors</a></li>
+                        <li><a href="#">People say</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-xs-10 col-lg-10 col-md-10">
-                <ul class="nav navbar-nav pull-right navigat">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Expertise</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Wors</a></li>
-                    <li><a href="#">People say</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="cont-hed">
-                <h2 class="had-h">We are Lorem ipsum dolor sit amet.</h2>
 
-                <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-                    necessitatibus nesciunt rem vitae! Ab accusantium atque autem dicta eius eligendi
-                    enim eos in, non perferendis repellat, reprehenderit sint sit vel. ipsum dolor sit
-                    amet, consectetur adipisicing elit. Aspernatur, eius error
-                    facere minus porro
-                    possimus quasi suscipit temporibus. A aspernatur at corporis dicta dignissimos,
-                    distinctio dolor
-                    dolores eius, enim eum fuga illum incidunt ipsa molestias nemo neque obcaecati
-                    officia, sapiente
-                    sequi temporibus? Eaque, iure, quisquam sequi temporibus? Eaque, iure, quisquam?</p>
-                <a href="#" class="btn btn-default btn-all">learn more</a>
+            <div id="carousel-example-generic" class="carousel slide carol-hid" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carousel">
+                            <div class="cont-hed row">
+                                <h2 class="had-h">We are awesome creative agency</h2>
+
+                                <p class="col-xs-12 col-sm-12 col-lg-12 col-md-12 xs-p">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing elit. Aspernatur, eius error
+                                    facere minus porro
+                                    possimus quasi suscipit temporibus. A aspernatur at corporis dicta dignissimos,
+                                    distinctio dolor
+                                    dolores eius, enim eum fuga illum incidunt ipsa molestias nemo neque obcaecati
+                                    officia, sapiente
+                                    sequi temporibus? Eaque, iure, quisquam sequi temporibus? Eaque, iure, quisquam?</p>
+                                <a href="#" class="btn btn-default btn-all">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!--<img src="..." alt="...">-->
+                        <div class="carousel">
+                            <div class="cont-hed row">
+                                <h2 class="had-h">We are awesome creative agency</h2>
+
+                                <p class="col-xs-12 col-sm-12 col-lg-12 col-md-12 xs-p">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing elit. Aspernatur, eius error
+                                    facere minus porro
+                                    possimus quasi suscipit temporibus. A aspernatur at corporis dicta dignissimos,
+                                    distinctio dolor
+                                    dolores eius, enim eum fuga illum incidunt ipsa molestias nemo neque obcaecati
+                                    officia, sapiente
+                                    sequi temporibus? Eaque, iure, quisquam sequi temporibus? Eaque, iure, quisquam?</p>
+                                <a href="#" class="btn btn-default btn-all">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control carol-indicat" href="#carousel-example-generic" role="button" data-slide="prev">
+                </a>
+                <a class="right carousel-control carol-indicat" href="#carousel-example-generic" role="button" data-slide="next">
+                </a>
             </div>
         </div>
         <div class="col-xs-12 col-lg-12 col-md-12 table-1">
@@ -62,77 +111,81 @@
                     width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="footer col-xs-12 col-lg-12 col-sm-12 col-md-12">
-            <div class="row h-foot-row">
-                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 f-img-p">
+            <div class="row foot-row">
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
                     <a href="#"><img src="foto/Vector Smart Object.png" alt=""></a>
-
-                    <p class="text-rob p-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                </div>
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
+                    <p class="our-studio">our studio</p>
+                </div>
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
+                    <p class="our-studio">Stay in touch</p>
+                </div>
+            </div>
+            <div class="row foot-row col-second">
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
+                    <p class="text-rob p-top">Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
+                        pariatur. ipsum dolor sit amet,
                         aspernatur
                         assumenda quam, suscipit totam u assumenda quam, suscipit totam ut?</p>
                 </div>
-                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
+                    <div class="row table-div">
+                        <div class="col-xs-12 tab-row">
+                            <div class="cell"><a href="#"><img src="foto/big104.png" alt=""></a></div>
+                            <div class="cell"><p class="text-rob">Lorem Lorem ipsum dolor sit amet, consectetur
+                                maiores sunt totam voluptates?</p></div>
+                        </div>
+                    </div>
+                    <div class="row table-div">
+                        <div class="col-xs-12 tab-row">
+                            <div class="cell"><a href="#"><img src="foto/phone351.png" alt=""></a></div>
+                            <div class="cell"><p class="text-rob">(+62)21-22222-2222</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-lg-4 col-sm-4 col-md-4">
                     <div class="row">
-                        <p class="our-studio">our studio</p>
-                        <ul class="media-list">
-                            <li class="media text-rob pos-t-f"><a href="#" class="media-left p-r-f">
-                                <img src="foto/big104.png" alt=""></a>
-
-                                <div class="media-body">Lorem ipsum dolor sit
-                                    amet, consectetur
-                                    adipisicing elit. Consequuntur cum doloremque
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-9 foot-inp-pad">
+                                    <form><input type="text"
+                                                 class="form-control inp-bg"
+                                                 placeholder="Subscribe our newsletter"></form>
                                 </div>
-                            </li>
-                            <li class="media text-rob"><a href="#" class="media-left p-r-f"><img
-                                    src="foto/phone351.png"
-                                    alt=""></a>
-
-                                <div class="media-body">(+62)21-22222-2222</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 pad-img-1">
-                    <p class="our-studio">Stay in touch</p>
-
-                    <div class="input-group input-group-lg pad-inp">
-                        <div class="row">
-                            <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4 inp-pad">
-                                <form><input type="text"
-                                             class="form-control inp-bg"
-                                             placeholder="Subscribe our newsletter"></form>
-                            </div>
-                            <div class="col-xs-1 col-sm-1 col-lg-1 col-md-1 inp-pad-2 inp-pad-2">
-                                <button type="button" class="bg-but" id="btn-foot"><img src="foto/paper122.png">
-                                </button>
-                            </div>
-
-                        </div>
-                        <ul class="nav nav-pills img-foot">
-                            <li><a href="#"><img src="foto/facebook25.png"></a></li>
-                            <li><a href="#"><img src="foto/twitter16.png"></a></li>
-                            <li><a href="#"><img src="foto/dribbble4.png"></a></li>
-                            <li><a href="#"><img src="foto/instagram3.png"></a></li>
-                            <li><a href="#"><img src="foto/google26.png"></a></li>
-                            <li><a href="#"><img src="foto/youtube13.png"></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 mar-fot">
-                        <div class="row">
-                            <div class="col-xs-1 col-lg-1 col-sm-1 col-md-1 col-sm-1 fot-text"><p><a href="#">help</a>
-                            </p>
-                            </div>
-                            <div class="col-xs-2 col-lg-2 col-md-3 col-sm-2 fot-text"><p><a
-                                    href="#">terms&condition</a></p>
-                            </div>
-                            <div class="col-xs-5 col-lg-5 col-md-3 col-sm-2 fot-text"><p><a href="#">privacy</a></p>
-                            </div>
-                            <div class="col-lg-4 col-md-5 col-sm-5 br-foot pull-right">
-                                <p>Copyright © 2015 - Tajem Creative</p>
+                                <div class="col-xs-3 btn-padin">
+                                    <button type="button" class="bg-but" id="btn-foot"><img src="foto/paper122.png">
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row soc-cont">
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/facebook25.png"></a></div>
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/twitter16.png"></a></div>
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/dribbble4.png"></a></div>
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/instagram3.png"></a></div>
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/google26.png"></a></div>
+                                <div class="col-xs-2 soc-img"><a href="#"><img src="foto/youtube13.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row foot-row col-third">
+                <div class="col-xs-1 col-lg-1 col-sm-1 col-md-1 col-sm-1 fot-text"><p><a href="#">help</a>
+                </p>
+                </div>
+                <div class="col-xs-2 col-lg-2 col-md-3 col-sm-2 fot-text"><p><a
+                        href="#">terms&condition</a></p>
+                </div>
+                <div class="col-xs-1 col-lg-5 col-md-3 col-sm-2 fot-text"><p><a href="#">privacy</a></p>
+                </div>
+                <div class="col-xs-5 col-lg-4 col-md-5 col-sm-5 br-foot pull-right">
+                    <p>Copyright © 2015 - Tajem Creative</p>
                 </div>
             </div>
         </div>

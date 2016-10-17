@@ -46,7 +46,6 @@ gulp.task("vendor-js", function () {
     ])
         .pipe(addSrc.prepend("src/vendor/jquery/dist/jquery.js"))
         .pipe(concat("vendor.min.js"))
-        .pipe(uglify())
         .pipe(gulp.dest("dist/js"));
 });
 
